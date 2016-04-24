@@ -1,4 +1,6 @@
 import networkx as nx
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def new_scale_graph(num, gammat):
